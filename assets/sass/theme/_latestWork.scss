@@ -1,0 +1,163 @@
+.latestWorkWrap {
+  position: relative;
+  padding: 110px 0 45px;
+  z-index: 1;
+
+  .shape_1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .shape_2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+.latestSlider {
+  .owl-prev,
+  .owl-next {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      color: $brand;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: all 0.5s;
+
+    }
+
+    &:hover {
+      &:before {
+        background: $brand !important;
+        color: #fff;
+      }
+    }
+
+
+    span {
+      display: none;
+    }
+
+    &.disabled {
+
+    }
+  }
+
+  .owl-prev {
+    left: -83px;
+
+    &:before {
+      content: "←";
+    }
+  }
+
+  .owl-next {
+    right: -83px;
+
+    &:before {
+      content: "→";
+    }
+
+    &.disabled {
+
+    }
+  }
+
+  .latestSliderItem {
+    padding: 0 15px;
+
+    .sliderInner {
+      .sliderContent {
+        position: relative;
+        margin-bottom: 80px;
+
+        .sliderImg {
+          overflow: hidden;
+
+          img {
+            transition: all 0.5s;
+          }
+
+          &:hover {
+            img {
+              transform: scale(1.1);
+            }
+          }
+        }
+
+        .sliderInfo {
+          position: absolute;
+          bottom: -60px;
+          width: 100%;
+          padding: 15px;
+
+          .infoInner {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+          }
+
+          h6 {
+            font-size: $f13;
+            font-family: $rnseb;
+            color: #bcbcbc;
+            margin-bottom: 10px;
+          }
+
+          h4 {
+            color: #030303;
+            font-family: $rnseb;
+            font-weight: 600;
+            font-size: $f22;
+          }
+
+          .readMore {
+            a {
+              color: $brand;
+              font-size: $f15;
+
+              .icon {
+                padding-left: 8px;
+                transition: all 0.5s;
+              }
+
+              &:hover {
+                .icon {
+                  padding-left: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .latestWorkWrap {
+    padding: 50px 0 0px;
+    overflow: hidden;
+  }
+}

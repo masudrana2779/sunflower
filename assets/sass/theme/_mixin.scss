@@ -1,0 +1,5 @@
+@mixin bgGradient($top,$value1, $value2) {
+  background: linear-gradient(to $top, $value1, $value2);
+}
+
+//.box { @include transform(rotate(30deg)); }

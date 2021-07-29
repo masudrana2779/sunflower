@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'revx_neue_demoitalic';
+    src: url('revxneuedemo-italic.woff2') format('woff2'),
+         url('revxneuedemo-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'revx_neue_demoregular';
+    src: url('revxneuedemo-regular.woff2') format('woff2'),
+         url('revxneuedemo-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'revx_neue_demosemi_bold';
+    src: url('revxneuedemo-semibold.woff2') format('woff2'),
+         url('revxneuedemo-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'revx_neue_demoSBdIt';
+    src: url('revxneuedemo-semibolditalic.woff2') format('woff2'),
+         url('revxneuedemo-semibolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

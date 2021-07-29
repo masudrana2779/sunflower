@@ -1,0 +1,125 @@
+.aboutUsWrap {
+  padding: 85px 0 135px;
+}
+
+.aboutUsImgContent {
+  .aboutImgInner {
+    padding-left: 30px;
+    position: relative;
+    z-index: 1;
+
+    .experienceWrap {
+      background: $dark;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 12px 28px;
+
+      .experienceInner {
+        .experienceContent {
+          h4 {
+            color: $white;
+            font-size: $f20;
+            line-height: 60px;
+            font-family: $rnseb;
+            margin-bottom: -13px;
+
+            .year {
+              font-size: 47px;
+              line-height: 60px;
+            }
+          }
+
+          h3 {
+            color: $white;
+            font-size: $f24;
+            font-family: $rnseb;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+
+    .borderShape {
+      width: 294px;
+      height: 324px;
+      border: 13px solid #e1e2e6;
+      position: absolute;
+      top: 90px;
+      left: -56px;
+      z-index: -1;
+    }
+
+    .aboutUsImg {
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.aboutContentWrap {
+  padding-top: 55px;
+  padding-left: 50px;
+
+  .aboutContentInner {
+
+    .aboutContent {
+      .secSubTitle {
+
+      }
+
+      .secTitle {
+
+      }
+
+      .aboutPare {
+        color: $gray;
+        font-size: $f16;
+        font-weight: 500;
+        line-height: 25px;
+        margin-bottom: 40px;
+      }
+
+      .aboutImg_2 {
+        .img_inner {
+          margin-bottom: 20px;
+          img {
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .aboutUsWrap {
+    padding: 60px 0 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutUsImgContent .aboutImgInner .borderShape {
+    width: 115px;
+    height: 250px;
+    top: 30px;
+    left: -5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutUsImgContent .aboutImgInner {
+    padding-right: 20px;
+  }
+  .aboutUsImgContent .aboutImgInner .aboutShape {
+    bottom: -30px;
+    right: 0;
+  }
+  .aboutContentWrap {
+    padding-left: 0;
+  }
+  .aboutUsWrap {
+    padding-bottom: 50px;
+  }
+}

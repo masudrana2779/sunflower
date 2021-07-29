@@ -1,0 +1,79 @@
+/*----------------------------------------------------
+@File: Default Styles
+
+/*=====================================================================
+@Template Name: Arafat Construction
+@Author: Masud Rana
+@Developed By: Masud Rana
+@Developer URL: https://www.linkedin.com/in/masudrana2779/
+@Default Styles
+/*----------------------------------------------------*/
+
+/*Base font*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+/* bootstrap */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css');
+//font-awesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+
+//-----Color
+$white: #fff;
+$brand: #FF5F30;
+$brand_2: #FFA42E;
+$brand_dark: #080808;
+$brand_light: #3459C0;
+$gray: #8A8F98;
+$gray_light: #C8CCD5;
+$dark: #222934;
+$dark_light: #424753;
+$light: #9CA6B4;
+$light_green_1: #00EC9C;
+$light_green_2: #01D48D;
+$blue_color_1: #3D73E8;
+$blue_color_2: #293A8F;
+
+
+//---- font family ----	
+
+$rni: 'revx_neue_demoitalic', sans-serif;
+$rnr: 'revx_neue_demoregular', sans-serif;
+$rnseb: 'revx_neue_demosemi_bold', sans-serif;
+$rnSB: 'revx_neue_demoSBdIt', sans-serif;
+$mon: 'Montserrat', sans-serif;
+
+$nunito:  'Nunito', sans-serif;
+$quicksand:  'Quicksand', sans-serif;
+
+
+//  fonts size
+$p: 16px;
+$f12: 12px;
+$f13: 13px;
+$f14: 14px;
+$f15: 15px;
+$f16: 16px;
+$f17: 17px;
+$f18: 18px;
+$f20: 20px;
+$f22: 22px;
+$f24: 24px;
+$f30: 30px;
+$f34: 34px;
+$f44: 44px;
+$f48: 48px;
+$f50: 50px;
+$f62: 62px;
+$f75: 75px;
+
+
+//----a style----	
+
+$a-text-decuration: none;
+$a-color: inherit;
+
+//----a-hover style----	
+
+$a-hover-color: inherit;

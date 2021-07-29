@@ -2,19 +2,15 @@
   position: relative;
   padding: 110px 0 45px;
   z-index: 1;
+  background: #081420;
 
-  .shape_1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-  }
+  .projectTop {
+    h6 {
 
-  .shape_2 {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
+    }
+    h2 {
+      color: $white;
+    }
   }
 }
 

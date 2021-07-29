@@ -84,43 +84,64 @@ button:focus {
   border-radius: 50px;
   position: relative;
   padding: 10px 45px;
-  border: none; }
+  border: none;
+  overflow: hidden;
+  z-index: 1; }
   .btnGlob:before {
     position: absolute;
+    content: "";
     top: 0;
     left: 0;
-    width: 0%;
+    width: 100%;
     height: 100%;
-    background: #FF5F30;
+    background: -webkit-gradient(linear, left bottom, left top, from(#FF5F30), to(#FFA42E));
+    background: -webkit-linear-gradient(bottom, #FF5F30, #FFA42E);
+    background: -o-linear-gradient(bottom, #FF5F30, #FFA42E);
+    background: linear-gradient(to top, #FF5F30, #FFA42E);
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     right: 0;
-    margin: 0 auto; }
+    margin: 0 auto;
+    z-index: -1; }
+  .btnGlob:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(#FFA42E), to(#FF5F30));
+    background: -webkit-linear-gradient(bottom, #FFA42E, #FF5F30);
+    background: -o-linear-gradient(bottom, #FFA42E, #FF5F30);
+    background: linear-gradient(to top, #FFA42E, #FF5F30);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1; }
   .btnGlob .btnText {
     position: relative;
     z-index: 1; }
   .btnGlob.signUpBtn {
     background: #fff;
     color: #FF5F30; }
+    .btnGlob.signUpBtn:before {
+      opacity: 0; }
+    .btnGlob.signUpBtn:after {
+      opacity: 0; }
     .btnGlob.signUpBtn:hover {
       color: #fff;
       background: #FF5F30; }
-      .btnGlob.signUpBtn:hover:before {
-        background: #FF5F30;
-        width: 100%;
-        opacity: 1; }
-  .btnGlob.btnSolid {
-    background: #222934; }
-    .btnGlob.btnSolid:hover:before {
-      background: #FF5F30;
-      width: 100%;
-      opacity: 1; }
   .btnGlob.btnBrand {
-    background: #FF5F30; }
+    background: #FF5F30;
+    -webkit-box-shadow: 0 20px 50px rgba(255, 122, 47, 0.3);
+    box-shadow: 0 20px 50px rgba(255, 122, 47, 0.3); }
     .btnGlob.btnBrand:hover:before {
-      background: #222934;
-      width: 100%;
+      opacity: 0; }
+    .btnGlob.btnBrand:hover:after {
       opacity: 1; }
   .btnGlob:hover {
     color: #fff; }
@@ -601,36 +622,33 @@ button:focus {
   .ourServiceWrap .serviceTop .secSubTitle {
     display: inline-block; }
 
-.serviceSingleI:nth-child(1) .serviceSingleItem:before {
-  top: 0;
-  left: 0; }
-
-.serviceSingleI:nth-child(2) .serviceSingleItem:before {
-  bottom: 0;
-  left: 0; }
-
-.serviceSingleI:nth-child(3) .serviceSingleItem:before {
-  right: 0;
-  top: 0; }
-
-.serviceSingleI:nth-child(4) .serviceSingleItem:before {
-  left: 0;
-  bottom: 0; }
-
-.serviceSingleI:nth-child(5) .serviceSingleItem:before {
-  top: 0;
-  right: 0; }
-
-.serviceSingleI:nth-child(6) .serviceSingleItem:before {
-  bottom: 0;
-  right: 0; }
+.serviceSingleI {
+  padding: 0 20px; }
+  .serviceSingleI:nth-child(1) .serviceSingleItem:before {
+    top: 0;
+    left: 0; }
+  .serviceSingleI:nth-child(2) .serviceSingleItem:before {
+    bottom: 0;
+    left: 0; }
+  .serviceSingleI:nth-child(3) .serviceSingleItem:before {
+    right: 0;
+    top: 0; }
+  .serviceSingleI:nth-child(4) .serviceSingleItem:before {
+    left: 0;
+    bottom: 0; }
+  .serviceSingleI:nth-child(5) .serviceSingleItem:before {
+    top: 0;
+    right: 0; }
+  .serviceSingleI:nth-child(6) .serviceSingleItem:before {
+    bottom: 0;
+    right: 0; }
 
 .serviceSingleItem {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   -webkit-box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
   box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
-  padding: 50px 35px;
-  border-radius: 8px;
+  padding: 60px 70px 45px;
+  border-radius: 20px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -640,7 +658,6 @@ button:focus {
   background: #fff; }
   .serviceSingleItem:before {
     position: absolute;
-    content: "";
     width: 20px;
     height: 20px;
     background: #ffbea2;
@@ -651,8 +668,9 @@ button:focus {
   .serviceSingleItem .serviceInner .serviceIcon {
     margin-bottom: 30px; }
   .serviceSingleItem .serviceInner .serviceInfo .serviceTitle {
-    font-size: 24px;
-    font-family: "revx_neue_demosemi_bold", sans-serif;
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
     line-height: 30px;
     margin-bottom: 25px;
     color: #030303;
@@ -682,18 +700,6 @@ button:focus {
       color: #072331; }
     .serviceSingleItem .serviceInner .serviceInfo .readMore a:hover .icon {
       padding-left: 10px; }
-  .serviceSingleItem:hover:before {
-    background: #FF5F30;
-    width: 100%;
-    height: 100%; }
-  .serviceSingleItem:hover .serviceInfo .serviceTitle {
-    color: #fff; }
-  .serviceSingleItem:hover .serviceInfo .servicePara {
-    color: #fff; }
-  .serviceSingleItem:hover .serviceInfo .readMore a {
-    color: #fff; }
-    .serviceSingleItem:hover .serviceInfo .readMore a .icon {
-      color: #fff; }
 
 @media (max-width: 1024px) {
   .ourServiceWrap {

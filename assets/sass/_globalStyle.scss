@@ -78,19 +78,37 @@ button:focus {
   position: relative;
   padding: 10px 45px;
   border: none;
+  overflow: hidden;
+  z-index: 1;
 
   &:before {
     position: absolute;
-    //content: "";
+    content: "";
     top: 0;
     left: 0;
-    width: 0%;
+    width: 100%;
     height: 100%;
-    background: $brand;
+    @include  bgGradient(top, $brand, $brand_2);
     transition: all 0.5s;
     //opacity: 0;
     right: 0;
     margin: 0 auto;
+    z-index: -1;
+  }
+
+  &:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include  bgGradient(top, $brand_2, $brand);
+    transition: all 0.5s;
+    opacity: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1;
   }
 
   .btnText {
@@ -101,37 +119,28 @@ button:focus {
   &.signUpBtn {
     background: $white;
     color: $brand;
+    &:before {
+      opacity: 0;
+    }
+    &:after {
+      opacity: 0;
+    }
 
     &:hover {
       color: $white;
       background: $brand;
-      &:before {
-        background: $brand;
-        width: 100%;
-        opacity: 1;
-      }
-    }
-  }
-
-  &.btnSolid {
-    background: $dark;
-
-    &:hover {
-      &:before {
-        background: $brand;
-        width: 100%;
-        opacity: 1;
-      }
     }
   }
 
   &.btnBrand {
     background: $brand;
+    box-shadow: 0 20px 50px rgba(255, 122, 47, 0.3);
 
     &:hover {
       &:before {
-        background: $dark;
-        width: 100%;
+        opacity: 0;
+      }
+      &:after {
         opacity: 1;
       }
     }

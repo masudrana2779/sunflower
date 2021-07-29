@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a325f1f4-207b-4562-a1b8-c0c0889e2882" name="Default Changelist" comment="" />
+    <list default="true" id="a325f1f4-207b-4562-a1b8-c0c0889e2882" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about-us/Dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about-us/about-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/serviceImg/service-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/serviceImg/service-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/_globalStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/_globalStyle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/_variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_sercice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_sercice.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +28,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1vt721wD5H2vqpHuilQ00BYzW3k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +51,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -44,11 +65,22 @@
       <workItem from="1627369322867" duration="1408000" />
       <workItem from="1627377365029" duration="30000" />
       <workItem from="1627377413170" duration="12214000" />
-      <workItem from="1627520391744" duration="3651000" />
+      <workItem from="1627520391744" duration="6882000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -944,7 +944,7 @@ button:focus {
   border-color: #FF5F30; }
 
 .contact-form .form-group textarea.form-control {
-  min-height: 140px; }
+  min-height: 265px; }
 
 .contact-form .form-submit {
   padding-top: 10px; }
@@ -1103,92 +1103,21 @@ button:focus {
   .contactInfoSingleItem .singleItemInner .conInfo p {
     color: #fff; }
 
+.contentBottomTitle p {
+  margin-bottom: 30px; }
+
 @media (max-width: 767px) {
   .contact_form_wrap {
     padding: 40px 0 20px; } }
 
 .footer {
-  background: #222934; }
-  .footer .footerTop {
-    padding: 0px 0 50px; }
-
-.footerSingleItem .footerTitle {
-  color: #fff;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  font-family: "revx_neue_demosemi_bold", sans-serif;
-  margin-bottom: 20px; }
-
-.footerSingleItem .footerPara {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 30px;
-  padding-right: 40px;
-  text-align: justify; }
-
-.footerSingleItem .footerMenu {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  .footerSingleItem .footerMenu li {
-    margin-bottom: 10px; }
-    .footerSingleItem .footerMenu li a {
-      color: #fff;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      font-weight: 500;
-      line-height: 30px;
-      position: relative;
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s; }
-      .footerSingleItem .footerMenu li a:before {
-        position: absolute;
-        content: '';
-        left: 10px;
-        opacity: 0;
-        top: 15px;
-        width: 5px;
-        height: 1px;
-        background: #fff;
-        -webkit-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s; }
-      .footerSingleItem .footerMenu li a:hover {
-        padding-left: 10px; }
-        .footerSingleItem .footerMenu li a:hover:before {
-          opacity: 1;
-          left: 0; }
-
-.footerSingleItem .footerContact .footerLogo {
-  margin-bottom: 15px; }
-  .footerSingleItem .footerContact .footerLogo img {
-    max-width: 190px;
-    width: 100%; }
-
-.footerSingleItem .footerContact .footerAddress p {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 30px;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 10px; }
-  .footerSingleItem .footerContact .footerAddress p i {
-    position: absolute;
-    left: 0;
-    top: 8px;
-    font-size: 20px; }
+  background: #F3F4F6; }
 
 .footerBottom {
-  background: #134761;
-  padding: 20px 0; }
+  padding: 20px 0;
+  border-top: 1px solid #ABAFC7; }
   .footerBottom .copyRight p {
-    color: #fff;
+    color: #70798B;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -1222,8 +1151,7 @@ button:focus {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        color: #69788d;
-        background: #fbfbfd;
+        color: #424753;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s;

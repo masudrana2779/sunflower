@@ -94,7 +94,7 @@
 }
 
 .contact-form .form-group textarea.form-control {
-  min-height: 140px;
+  min-height: 265px;
 }
 
 .contact-form .form-submit {
@@ -282,6 +282,11 @@
   }
 }
 
+.contentBottomTitle {
+  p {
+    margin-bottom: 30px;
+  }
+}
 
 // media
 @media (max-width: 767px) {

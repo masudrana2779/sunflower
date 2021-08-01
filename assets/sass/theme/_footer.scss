@@ -1,112 +1,16 @@
 .footer {
-  background: $dark;
+  background: $bgGray;
 
-  .footerTop {
-    padding: 0px 0 50px;
-
-  }
 }
 
-.footerSingleItem {
-  .footerTitle {
-    color: $white;
-    font-weight: 600;
-    font-size: $f20;
-    line-height: 30px;
-    font-family: $rnseb;
-    margin-bottom: 20px;
-  }
-
-  .footerPara {
-    color: $white;
-    font-family: $mon;
-    font-size: $f15;
-    font-weight: 500;
-    line-height: 30px;
-    padding-right: 40px;
-    text-align: justify;
-  }
-
-  .footerMenu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    li {
-      margin-bottom: 10px;
-
-      a {
-        color: $white;
-        font-family: $mon;
-        font-size: $f15;
-        font-weight: 500;
-        line-height: 30px;
-        position: relative;
-        transition: all 0.5s;
-
-        &:before {
-          position: absolute;
-          content: '';
-          left: 10px;
-          opacity: 0;
-          top: 15px;
-          width: 5px;
-          height: 1px;
-          background: #fff;
-          transition: all 0.5s;
-        }
-
-        &:hover {
-          padding-left: 10px;
-
-          &:before {
-            opacity: 1;
-            left: 0;
-          }
-        }
-      }
-    }
-  }
-
-  .footerContact {
-    .footerLogo {
-      margin-bottom: 15px;
-
-      img {
-        max-width: 190px;
-        width: 100%;
-      }
-    }
-
-    .footerAddress {
-      p {
-        color: $white;
-        font-family: $mon;
-        font-size: $f15;
-        font-weight: 500;
-        line-height: 30px;
-        position: relative;
-        padding-left: 35px;
-        margin-bottom: 10px;
-
-        i {
-          position: absolute;
-          left: 0;
-          top: 8px;
-          font-size: 20px;
-        }
-      }
-    }
-  }
-}
 
 .footerBottom {
-  background: #134761;
   padding: 20px 0;
+  border-top: 1px solid #ABAFC7;
 
   .copyRight {
     p {
-      color: $white;
+      color: #70798B;
       font-family: $mon;
       font-size: $f15;
       font-weight: 500;
@@ -136,8 +40,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          color: #69788d;
-          background: #fbfbfd;
+          color: #424753;
           transition: all 0.5s;
           border-radius: 50%;
 

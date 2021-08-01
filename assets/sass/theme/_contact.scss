@@ -1,6 +1,8 @@
 
 .contact_form_wrap {
-  padding: 110px 0 90px;
+  position: relative;
+  z-index: 1;
+
   .get_touch {
     color: #646c84;
     font-size: 20px;
@@ -110,6 +112,7 @@
   border-radius: 0;
   padding: 15px 33px 14px;
   text-transform: uppercase;
+
   &:before {
     position: absolute;
     content: "";
@@ -206,6 +209,81 @@
   border: none;
 }
 
+.contactTopWrap {
+  transform: translateY(-50%);
+  .contactTop {
+    background: url("../../../assets/img/call-us/contactTopBg.jpg");
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 85px 0;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      @include bgGradient(top, $brand, $brand_2);
+      opacity: 0.93;
+    }
+
+    .contentTopTitle {
+      .secSubTitle {
+        color: $white;
+      }
+
+      .secTitle {
+        color: $white;
+
+      }
+    }
+  }
+}
+
+.contactInfoSingleItem {
+  display: flex;
+  justify-content: center;
+  .singleItemInner {
+    .contactIcon {
+      width: 90px;
+      height: 90px;
+      background: rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 30px;
+      color: $white;
+      margin-right: 30px;
+      i {
+
+      }
+    }
+
+    .conInfo {
+      h5 {
+      color: $white;
+        font-size: $f20;
+        font-weight: 700;
+        line-height: 30px;
+        font-family: $nunito;
+
+      }
+
+      p {
+      color: $white;
+
+      }
+    }
+  }
+}
+
+
+// media
 @media (max-width: 767px) {
   .contact_form_wrap {
     padding: 40px 0 20px;

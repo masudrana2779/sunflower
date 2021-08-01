@@ -107,6 +107,27 @@
 
         footerLogoSlider();
 
+
+
+
+        function myMap() {
+            if ($("#contact_map").length > 0) {
+                var mapCanvas = document.getElementById("contact_map");
+                var myCenter = new google.maps.LatLng(23.746852, 90.351119);
+                var mapOptions = {
+                    center: myCenter,
+                    zoom: 16
+                };
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                    icon: 'assets/img/location.png'
+                });
+                marker.setMap(map);
+            }
+        }
+        myMap();
+
     });
 
 }(jQuery);

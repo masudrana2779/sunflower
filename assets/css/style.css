@@ -195,6 +195,9 @@ button:focus {
   color: #fff;
   font-size: 30px; }
 
+.bgGray {
+  background: #F3F4F6; }
+
 .header {
   position: fixed;
   top: 0;
@@ -883,7 +886,8 @@ button:focus {
     padding: 50px 0 50px; } }
 
 .contact_form_wrap {
-  padding: 110px 0 90px; }
+  position: relative;
+  z-index: 1; }
   .contact_form_wrap .get_touch {
     color: #646c84;
     font-size: 20px;
@@ -1036,6 +1040,68 @@ button:focus {
   width: 100%;
   height: 100%;
   border: none; }
+
+.contactTopWrap {
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .contactTopWrap .contactTop {
+    background: url("../../../assets/img/call-us/contactTopBg.jpg");
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 85px 0; }
+    .contactTopWrap .contactTop:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background: -webkit-gradient(linear, left bottom, left top, from(#FF5F30), to(#FFA42E));
+      background: -webkit-linear-gradient(bottom, #FF5F30, #FFA42E);
+      background: -o-linear-gradient(bottom, #FF5F30, #FFA42E);
+      background: linear-gradient(to top, #FF5F30, #FFA42E);
+      opacity: 0.93; }
+    .contactTopWrap .contactTop .contentTopTitle .secSubTitle {
+      color: #fff; }
+    .contactTopWrap .contactTop .contentTopTitle .secTitle {
+      color: #fff; }
+
+.contactInfoSingleItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .contactInfoSingleItem .singleItemInner .contactIcon {
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    margin-right: 30px; }
+  .contactInfoSingleItem .singleItemInner .conInfo h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Nunito", sans-serif; }
+  .contactInfoSingleItem .singleItemInner .conInfo p {
+    color: #fff; }
 
 @media (max-width: 767px) {
   .contact_form_wrap {

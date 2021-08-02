@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  padding: 50px 0;
+  padding: 30px 0;
   transition: all 0.5s;
 
   &.fixdHeader {
@@ -16,7 +16,7 @@
       .logo {
         a {
           img {
-            max-width: 200px;
+            max-width: 140px;
           }
         }
       }

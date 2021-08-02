@@ -204,7 +204,7 @@ button:focus {
   left: 0;
   width: 100%;
   z-index: 10;
-  padding: 50px 0;
+  padding: 30px 0;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
@@ -214,7 +214,7 @@ button:focus {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
     .header.fixdHeader .navbar .logo a img {
-      max-width: 200px; }
+      max-width: 140px; }
     .header.fixdHeader .navbar .mainMenu ul .nav-item .nav-link.getAQuote {
       background: #222934; }
       .header.fixdHeader .navbar .mainMenu ul .nav-item .nav-link.getAQuote:hover {
@@ -884,6 +884,36 @@ button:focus {
 @media (max-width: 767px) {
   .experienceWrap {
     padding: 50px 0 50px; } }
+
+.testimonialWrap {
+  padding: 100px 0; }
+  .testimonialWrap .testimonialTitle {
+    margin-bottom: 150px; }
+
+.testimonialSliderItem {
+  -webkit-box-shadow: -15px 30px 50px rgba(112, 121, 139, 0.3);
+  box-shadow: -15px 30px 50px rgba(112, 121, 139, 0.3);
+  padding: 55px 60px;
+  border-radius: 20px; }
+  .testimonialSliderItem .testimonialSliderInner .testimonialSliderImgContent {
+    margin-bottom: 30px; }
+    .testimonialSliderItem .testimonialSliderInner .testimonialSliderImgContent .testImg {
+      margin-right: 20px; }
+      .testimonialSliderItem .testimonialSliderInner .testimonialSliderImgContent .testImg img {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px; }
+    .testimonialSliderItem .testimonialSliderInner .testimonialSliderImgContent .testImgInfo .clientName {
+      font-family: "Nunito", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 25px;
+      color: #222934; }
+    .testimonialSliderItem .testimonialSliderInner .testimonialSliderImgContent .testImgInfo p {
+      color: #ABAFC7;
+      font-weight: 500; }
+  .testimonialSliderItem .testimonialSliderInner .testDetails p {
+    color: #70798B; }
 
 .contact_form_wrap {
   position: relative;

@@ -53,20 +53,12 @@
     }
   }
 }
-
-.footerLogoSliderWrap {
-  .footerLogoSlider {
-    background: $brand;
-    border-radius: 10px;
-    padding: 20px 0;
-    transform: translateY(-50%);
-
-    .logoSliderItem {
-      img {
-        max-width: 150px;
-        width: 100%;
-        margin: 0 auto;
-      }
+.footerLogo {
+  margin-bottom: 20px;
+  a {
+    img {
+      max-width: 150px;
+      width: 100%;
     }
   }
 }

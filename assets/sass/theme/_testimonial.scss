@@ -2,7 +2,7 @@
   padding: 100px 0;
 
   .testimonialTitle {
-    margin-bottom: 150px;
+    margin-bottom: 85px;
 
     .secSubTitle {
 
@@ -15,21 +15,44 @@
 }
 
 .testimonialSliderWrap {
-
+  margin-top: -100px;
 }
 
 .testimonialSlider {
+  .center {
+    .testimonialSliderItem {
+      box-shadow: -15px 30px 50px rgba(112, 121, 139, 0.3);
 
+      .testimonialSliderInner {
+        .testimonialSliderImgContent {
+          .comma {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
 }
 
+
+
 .testimonialSliderItem {
-  box-shadow: -15px 30px 50px rgba(112, 121, 139, 0.3);
+  transition: all 0.3s;
   padding: 55px 60px;
   border-radius: 20px;
+  margin: 100px 0;
 
   .testimonialSliderInner {
     .testimonialSliderImgContent {
+      position: relative;
       margin-bottom: 30px;
+
+      .comma {
+        position: absolute;
+        top: 0;
+        right: 0;
+        filter: grayscale(1);
+      }
 
       .testImg {
         margin-right: 20px;

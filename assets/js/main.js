@@ -81,25 +81,17 @@
 
         function testimonialSlider() {
             $(".testimonialSlider").owlCarousel({
-                items: 3,
-                // margin: 30,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false,
-                    },
-                    480: {
-                        items: 2,
-                        nav: false,
-                    },
-                    768: {
-                        items: 2
-                    },
-                    1920: {
-                        items: 3
+                center: true,
+                items:2,
+                loop:true,
+                margin:30,
+                lazyLoad: true,
+                autoplay: true,
+                responsive:{
+                    600:{
+                        items:3
                     }
-                },
+                }
             });
         }
 

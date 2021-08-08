@@ -534,8 +534,7 @@ button:focus {
     border-radius: 20px; }
 
 .aboutContentWrap {
-  padding-top: 55px;
-  padding-left: 50px; }
+  padding-top: 55px; }
   .aboutContentWrap .aboutContentInner .aboutContent .aboutPare {
     color: #8A8F98;
     font-size: 16px;

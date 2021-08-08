@@ -348,7 +348,9 @@ button:focus {
           -webkit-box-shadow: none;
           box-shadow: none;
           outline: none;
-          color: #fff; }
+          color: #fff;
+          border-radius: 50%;
+          background: transparent; }
 
 @media (max-width: 1024px) {
   .header .navbar .logo a img {

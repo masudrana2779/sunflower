@@ -232,6 +232,11 @@
             box-shadow: none;
             outline: none;
             color: $white;
+            border-radius: 50%;
+            background: transparent;
+            &:hover {
+              //background: $brand;
+            }
           }
         }
       }

@@ -77,7 +77,7 @@
             });
         }
 
-        latestSlider();
+        // latestSlider();
 
         function testimonialSlider() {
             $(".testimonialSlider").owlCarousel({

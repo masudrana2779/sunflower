@@ -8,13 +8,24 @@
     h6 {
 
     }
+
     h2 {
       color: $white;
     }
   }
+
+  .secStitle {
+    color: $white;
+    font-size: $f30;
+    font-family: $nunito;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
 }
 
 .latestSlider {
+  margin: 0 -5px;
+
   .owl-prev,
   .owl-next {
     width: 60px;
@@ -81,12 +92,14 @@
   }
 
   .latestSliderItem {
-    padding: 0 15px;
+    padding: 0 5px;
 
     .sliderInner {
       .sliderContent {
         position: relative;
-        margin-bottom: 80px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        overflow: hidden;
 
         .sliderImg {
           overflow: hidden;
@@ -104,28 +117,52 @@
 
         .sliderInfo {
           position: absolute;
-          bottom: -60px;
+          top: 0;
           width: 100%;
-          padding: 15px;
+          padding: 0;
+          height: 100%;
+          display: flex;
+          align-items: flex-end;
+
+          &:before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                            0deg, rgba(0, 0, 0, 0.5), transparent);
+            transition: all 0.5s;
+            opacity: 0;
+          }
 
           .infoInner {
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+            //background: #fff;
+            padding: 40px 55px;
+            //box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+            width: 100%;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s;
+            opacity: 0;
+            transform: translateY(30px);
           }
 
           h6 {
-            font-size: $f13;
-            font-family: $rnseb;
-            color: #bcbcbc;
-            margin-bottom: 10px;
+            font-size: $f25;
+            font-family: $nunito;
+            color: #fff;
+            margin-bottom: 0px;
+            font-weight: 700;
           }
 
-          h4 {
-            color: #030303;
-            font-family: $rnseb;
-            font-weight: 600;
-            font-size: $f22;
+          p {
+            color: #fff;
+            font-family: $quicksand;
+            font-weight: 500;
+            font-size: $f16;
+            line-height: 25px;
           }
 
           .readMore {
@@ -143,6 +180,21 @@
                   padding-left: 15px;
                 }
               }
+            }
+          }
+        }
+      }
+    }
+    &:hover {
+      .sliderInner {
+        .sliderContent {
+          .sliderInfo{
+            &:before {
+              opacity: 1;
+            }
+            .infoInner {
+              transform: translateY(0);
+              opacity: 1;
             }
           }
         }

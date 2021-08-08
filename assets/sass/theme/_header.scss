@@ -1,0 +1,260 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 30px 0;
+  transition: all 0.5s;
+
+  &.fixdHeader {
+    background: $white;
+    padding: 15px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+    .navbar {
+      .logo {
+        a {
+          img {
+            max-width: 140px;
+          }
+        }
+      }
+
+      .mainMenu {
+        ul {
+
+          .nav-item {
+
+            .nav-link {
+
+              &:before {
+              }
+
+              &.active {
+
+              }
+
+              &.getAQuote {
+                background: $dark;
+
+                &:hover {
+                  color: $white;
+
+                  &:before {
+                    background: $brand;
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .rightSearchBoxWrap {
+          .rightSearchBox {
+            border-color: $brand;
+            .btn {
+              color: $brand;
+            }
+          }
+        }
+        .signUpBtnWrap {
+          .signUpBtn {
+            border: 1px solid $brand;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    padding: 0;
+
+    .logo {
+      a {
+        img {
+          transition: all 0.5s;
+          max-width: 200px;
+          width: 100%;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      padding: 0;
+      outline: none;
+      box-shadow: none;
+
+      .bar_icon {
+        width: 30px;
+        height: 16px;
+        position: relative;
+        display: inline-block;
+
+        .bar {
+          position: absolute;
+          width: 100%;
+          background: white;
+          height: 2px;
+          left: 0;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+
+          &.bar_1 {
+            top: 0;
+          }
+
+          &.bar_2 {
+            top: 50%;
+          }
+
+          &.bar_3 {
+            top: 100%;
+          }
+        }
+      }
+
+      &[aria-expanded="true"] {
+        .bar {
+          &.bar_1 {
+            top: 50%;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+
+          &.bar_2 {
+            opacity: 0;
+          }
+
+          &.bar_3 {
+            top: 50%;
+            -webkit-transform: rotate(-45deg) translateY(-50%);
+            -ms-transform: rotate(-45deg) translateY(-50%);
+            transform: rotate(-45deg) translateY(-50%);
+          }
+        }
+      }
+    }
+
+
+    .mainMenu {
+      margin-left: 150px;
+
+      ul {
+        align-items: center;
+
+        .nav-item {
+          margin-right: 30px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          .nav-link {
+            color: $dark;
+            font-size: $f17;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 0;
+            position: relative;
+
+            &:before {
+              position: absolute;
+              content: "";
+              bottom: 0;
+              right: 0;
+              width: 0;
+              height: 1px;
+              background: $dark;
+              transition: all 0.5s;
+              opacity: 0;
+              z-index: 1;
+            }
+
+            &.active,
+            &:hover {
+              color: $brand;
+
+              &:before {
+                width: 100%;
+                left: 0;
+                right: auto;
+                opacity: 1;
+                background: $brand;
+              }
+            }
+
+            &.getAQuote {
+              background: $brand;
+              border: 1px solid $brand;
+              padding: 10px 20px;
+              transition: all 0.5s;
+              position: relative;
+              z-index: 1;
+
+              &:before {
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 100%;
+                background: $brand;
+                transition: all 0.5s;
+                right: 0;
+                margin: 0 auto;
+                z-index: -1;
+              }
+
+              &:hover {
+                color: $white;
+
+                &:before {
+                  background: $dark;
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .rightSearchBoxWrap {
+        .rightSearchBox {
+          border-right: 1px solid #fff;
+          margin-right: 35px;
+          padding-right: 20px;
+          .btn {
+            border: none;
+            box-shadow: none;
+            outline: none;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .header .navbar .logo a img {
+    max-width: 170px;
+  }
+  .header.fixdHeader .navbar .logo a img {
+    max-width: 150px;
+  }
+  .header .navbar .mainMenu ul .nav-item {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 20px 0;
+    background: $dark;
+  }
+}

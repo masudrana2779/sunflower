@@ -1,0 +1,78 @@
+.callUsWrap {
+  background: url("./../../assets/img/call-us/call-us-bg.jpg") no-repeat scroll top left / cover;
+  position: relative;
+  z-index: 1;
+  padding-top: 93px;
+
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  &:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(-27deg, #fb5d13 50%, #fb5d1300 0%);
+    z-index: -1;
+  }
+
+  .callUsContent {
+    .secSubTitle {
+    }
+
+    .secTitle {
+      color: $white;
+    }
+
+    .btnWrap {
+      .btnGlob {
+
+      }
+    }
+  }
+
+  .callUsImgContent {
+    .callUsImgInner {
+      margin-top: -155px;
+      .callUsImg {
+        img {
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .callUsWrap {
+    padding-top: 40px;
+  }
+  .callUsWrap:after {
+    background: linear-gradient(-33deg, #fb5d13 50%, #fb5d1300 0%);
+  }
+}
+
+@media (max-width: 768px) {
+  .callUsWrap .callUsImgContent .callUsImgInner {
+    margin-top: -50px;
+  }
+  .callUsWrap:after {
+    background: linear-gradient(-40deg, #fb5d13 50%, #fb5d1300 0%);
+  }
+}
+
+@media (max-width: 767px) {
+  .callUsWrap .callUsImgContent .callUsImgInner {
+    margin-top: 60px;
+  }
+}

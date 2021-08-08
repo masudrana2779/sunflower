@@ -1,0 +1,144 @@
+.ourServiceWrap {
+  padding: 110px 0 90px;
+  background: #f9f8fd;
+  .serviceTop {
+    .secSubTitle {
+      display: inline-block;
+    }
+
+    .secTitle {
+
+    }
+  }
+}
+
+.serviceSingleI {
+  padding: 0 20px;
+  &:nth-child(1) {
+    .serviceSingleItem {
+      &:before {
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  &:nth-child(2) {
+    .serviceSingleItem {
+      &:before {
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+  &:nth-child(3) {
+    .serviceSingleItem {
+      &:before {
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+  &:nth-child(4) {
+    .serviceSingleItem {
+      &:before {
+        left: 0;
+        bottom: 0;
+      }
+    }
+  }
+  &:nth-child(5) {
+    .serviceSingleItem {
+      &:before {
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+  &:nth-child(6) {
+    .serviceSingleItem {
+      &:before {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+.serviceSingleItem {
+  margin-bottom: 40px;
+  box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+  padding: 60px 70px 45px;
+  border-radius: 20px;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: #fff;
+
+  &:before {
+    position: absolute;
+    //content: "";
+    width: 20px;
+    height: 20px;
+    background: #ffbea2;
+    transition: all 0.5s;
+    z-index: -1;
+  }
+
+  .serviceInner {
+    .serviceIcon {
+      margin-bottom: 30px;
+
+      img {
+
+      }
+    }
+
+    .serviceInfo {
+      .serviceTitle {
+        font-size: $f25;
+        font-family: $nunito;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 25px;
+        color: #030303;
+        transition: all 0.5s;
+      }
+
+      .servicePara {
+        font-family: $mon;
+        font-weight: 400;
+        font-size: $f15;
+        color: #072331;
+        transition: all 0.5s;
+        margin-bottom: 25px;
+      }
+
+      .readMore {
+        a {
+          font-size: $f16;
+          color: #072331;
+          font-weight: 500;
+          transition: all .5s;
+
+          .icon {
+            transition: all 0.5s;
+            color: #072331;
+          }
+
+          &:hover {
+            .icon {
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}@media (max-width: 1024px) {
+  .ourServiceWrap {
+    padding: 50px 0 40px;
+  }
+}

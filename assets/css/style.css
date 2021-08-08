@@ -249,7 +249,7 @@ button:focus {
         .header .navbar .navbar-toggler .bar_icon .bar {
           position: absolute;
           width: 100%;
-          background: white;
+          background: #FF5F30;
           height: 2px;
           left: 0;
           -webkit-transition: all 0.5s;
@@ -360,8 +360,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .header {
-    padding: 20px 0;
-    background: #222934; } }
+    padding: 20px 0; } }
 
 .bannerSliderWrap {
   position: relative;
@@ -488,7 +487,11 @@ button:focus {
     margin-bottom: 15px; }
   .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote {
     display: inline-block;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .bannerSliderWrap .overlayImg {
+    display: none; }
+  .bannerSliderItem .bannerImgContent {
+    padding-left: 0; } }
 
 @media (max-height: 414px) {
   .header .navbar .mainMenu ul {

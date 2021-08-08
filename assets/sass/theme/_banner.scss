@@ -160,6 +160,12 @@
     display: inline-block;
     margin-top: 10px;
   }
+  .bannerSliderWrap .overlayImg {
+    display: none;
+  }
+  .bannerSliderItem .bannerImgContent {
+    padding-left: 0;
+  }
 }
 
 @media (max-height: 414px) {

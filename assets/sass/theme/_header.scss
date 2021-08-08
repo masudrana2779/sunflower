@@ -95,7 +95,7 @@
         .bar {
           position: absolute;
           width: 100%;
-          background: white;
+          background: $brand;
           height: 2px;
           left: 0;
           -webkit-transition: all 0.5s;
@@ -255,6 +255,5 @@
 @media (max-width: 767px) {
   .header {
     padding: 20px 0;
-    background: $dark;
   }
 }

@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/theme/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_latestWork.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_latestWork.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <workItem from="1627972938758" duration="4060000" />
       <workItem from="1627982605449" duration="1138000" />
       <workItem from="1627991458335" duration="968000" />
-      <workItem from="1628410898330" duration="5343000" />
+      <workItem from="1628410898330" duration="5425000" />
     </task>
     <servers />
   </component>

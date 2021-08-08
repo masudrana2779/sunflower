@@ -781,9 +781,15 @@ button:focus {
       position: relative;
       margin-bottom: 10px;
       border-radius: 20px;
-      overflow: hidden; }
+      overflow: hidden;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
       .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderImg {
-        overflow: hidden; }
+        overflow: hidden;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
         .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderImg img {
           -webkit-transition: all 0.5s;
           -o-transition: all 0.5s;
@@ -853,13 +859,18 @@ button:focus {
             transition: all 0.5s; }
           .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .readMore a:hover .icon {
             padding-left: 15px; }
-    .latestSlider .latestSliderItem:hover .sliderInner .sliderContent .sliderInfo:before {
-      opacity: 1; }
-    .latestSlider .latestSliderItem:hover .sliderInner .sliderContent .sliderInfo .infoInner {
-      -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0);
-      opacity: 1; }
+    .latestSlider .latestSliderItem:hover .sliderInner .sliderContent {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      z-index: 10; }
+      .latestSlider .latestSliderItem:hover .sliderInner .sliderContent .sliderInfo:before {
+        opacity: 1; }
+      .latestSlider .latestSliderItem:hover .sliderInner .sliderContent .sliderInfo .infoInner {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1; }
 
 @media (max-width: 1024px) {
   .latestWorkWrap {

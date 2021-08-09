@@ -1,0 +1,13 @@
+.clientLogoWrap {
+  padding-bottom: 350px;
+}
+
+.clientLogoContent {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: auto auto auto auto auto;
+
+  .clientLogoItem {
+    text-align: center;
+  }
+}

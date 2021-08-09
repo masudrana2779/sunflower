@@ -96,36 +96,7 @@
         }
 
         testimonialSlider();
-
-        function footerLogoSlider() {
-            $(".footerLogoSlider").owlCarousel({
-                items: 5,
-                margin: 30,
-                // nav: true,
-                freeDrag: true,
-                loop: true,
-                autoplay: true,
-                slideBy: 1,
-                responsive: {
-                    0: {
-                        items: 2,
-                    },
-                    480: {
-                        items: 2,
-                    },
-                    768: {
-                        items: 3
-                    },
-                    1920 :{
-                        items: 5
-                    }
-                }
-            });
-        }
-
-        footerLogoSlider();
-
-
+        
 
 
         function myMap() {

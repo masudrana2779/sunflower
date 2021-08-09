@@ -946,7 +946,7 @@ button:focus {
     padding: 50px 0 50px; } }
 
 .testimonialWrap {
-  padding: 100px 0; }
+  padding: 100px 0 60px; }
   .testimonialWrap .testimonialTitle {
     margin-bottom: 85px; }
 
@@ -993,6 +993,84 @@ button:focus {
       font-weight: 500; }
   .testimonialSliderItem .testimonialSliderInner .testDetails p {
     color: #70798B; }
+
+.clientLogoWrap {
+  padding-bottom: 350px; }
+
+.clientLogoContent {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 30px;
+  -ms-grid-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto; }
+  .clientLogoContent .clientLogoItem {
+    text-align: center; }
+
+.ratingWrap {
+  padding: 0px 0 110px; }
+  .ratingWrap .container {
+    max-width: 1100px; }
+  .ratingWrap .userRating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .ratingWrap .userRating .userRatingInner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .ratingWrap .userRating .userRatingInner .userRatingItem {
+        padding-right: 30px;
+        position: relative;
+        margin-right: 30px; }
+        .ratingWrap .userRating .userRatingInner .userRatingItem:last-child {
+          padding-right: 0;
+          margin-right: 0; }
+          .ratingWrap .userRating .userRatingInner .userRatingItem:last-child:before {
+            display: none; }
+        .ratingWrap .userRating .userRatingInner .userRatingItem:after {
+          background: #FF5F30; }
+        .ratingWrap .userRating .userRatingInner .userRatingItem:before {
+          position: absolute;
+          content: '';
+          top: 10px;
+          right: 0;
+          width: 1px;
+          height: 54px;
+          background: #FF5F30; }
+        .ratingWrap .userRating .userRatingInner .userRatingItem:after {
+          position: absolute;
+          content: '';
+          top: 0px;
+          left: -10px;
+          width: 53px;
+          height: 53px;
+          border-radius: 50%;
+          opacity: 0.1;
+          background: #FFA42E; }
+        .ratingWrap .userRating .userRatingInner .userRatingItem .ratingInfo h2 {
+          font-size: 60px;
+          line-height: 72px;
+          color: #000B33;
+          font-family: "Quicksand", sans-serif; }
+        .ratingWrap .userRating .userRatingInner .userRatingItem .ratingInfo p {
+          color: #000B33;
+          font-family: "Nunito", sans-serif;
+          font-size: 16px; }
+  .ratingWrap .totalRatingCount {
+    padding-left: 100px; }
+    .ratingWrap .totalRatingCount .totalRatingInner {
+      max-width: 555px;
+      width: 100%; }
+      .ratingWrap .totalRatingCount .totalRatingInner h3 {
+        font-size: 48px;
+        line-height: 58px;
+        font-family: "Quicksand", sans-serif;
+        color: #000B33; }
+        .ratingWrap .totalRatingCount .totalRatingInner h3 span {
+          color: #FF5F30; }
 
 .contact_form_wrap {
   position: relative;

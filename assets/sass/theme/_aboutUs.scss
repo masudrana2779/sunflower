@@ -96,6 +96,14 @@
 @media (max-width: 1024px) {
   .aboutUsWrap {
     padding: 60px 0 80px;
+  }.aboutContentWrap {
+     padding-top: 0;
+   }
+  .aboutContentWrap .aboutContentInner .aboutContent .secTitle {
+    margin-bottom: 20px;
+  }
+  .aboutContentWrap .aboutContentInner .aboutContent .aboutPare {
+    margin-bottom: 20px;
   }
 }
 
@@ -110,7 +118,8 @@
 
 @media (max-width: 767px) {
   .aboutUsImgContent .aboutImgInner {
-    padding-right: 20px;
+    padding: 0;
+    margin-bottom: 30px;
   }
   .aboutUsImgContent .aboutImgInner .aboutShape {
     bottom: -30px;

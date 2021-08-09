@@ -1,6 +1,7 @@
 .ourServiceWrap {
   padding: 110px 0 90px;
   background: #f9f8fd;
+
   .serviceTop {
     .secSubTitle {
       display: inline-block;
@@ -14,6 +15,7 @@
 
 .serviceSingleI {
   padding: 0 20px;
+
   &:nth-child(1) {
     .serviceSingleItem {
       &:before {
@@ -22,6 +24,7 @@
       }
     }
   }
+
   &:nth-child(2) {
     .serviceSingleItem {
       &:before {
@@ -30,6 +33,7 @@
       }
     }
   }
+
   &:nth-child(3) {
     .serviceSingleItem {
       &:before {
@@ -38,6 +42,7 @@
       }
     }
   }
+
   &:nth-child(4) {
     .serviceSingleItem {
       &:before {
@@ -46,6 +51,7 @@
       }
     }
   }
+
   &:nth-child(5) {
     .serviceSingleItem {
       &:before {
@@ -54,6 +60,7 @@
       }
     }
   }
+
   &:nth-child(6) {
     .serviceSingleItem {
       &:before {
@@ -137,8 +144,19 @@
   }
 
 
-}@media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
   .ourServiceWrap {
     padding: 50px 0 40px;
+  }
+  .serviceSingleItem {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .serviceSingleItem .serviceInner .serviceInfo .serviceTitle {
+    font-size: 22px;
   }
 }

@@ -184,6 +184,16 @@ button:focus {
   }
 }
 
+@media (max-width: 767px) {
+  .secTitle br {
+    display: none;
+  }
+  .secTitle {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
 .gotop {
   position: fixed;
   bottom: 20px;
@@ -201,6 +211,7 @@ button:focus {
   justify-content: center;
   color: #fff;
   font-size: 30px;
+  border-radius: 50%;
 }
 
 .bgGray {

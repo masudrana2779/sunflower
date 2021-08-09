@@ -187,17 +187,21 @@
         }
       }
     }
+
     &:hover {
       .sliderInner {
         .sliderContent {
           transform: scale(1.1);
           z-index: 10;
+
           .sliderImg {
           }
-          .sliderInfo{
+
+          .sliderInfo {
             &:before {
               opacity: 1;
             }
+
             .infoInner {
               transform: translateY(0);
               opacity: 1;
@@ -213,5 +217,8 @@
   .latestWorkWrap {
     padding: 50px 0 0px;
     overflow: hidden;
+  }
+  .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .infoInner {
+    padding: 30px 25px;
   }
 }

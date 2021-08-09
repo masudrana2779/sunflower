@@ -54,11 +54,13 @@
         .rightSearchBoxWrap {
           .rightSearchBox {
             border-color: $brand;
+
             .btn {
               color: $brand;
             }
           }
         }
+
         .signUpBtnWrap {
           .signUpBtn {
             border: 1px solid $brand;
@@ -227,6 +229,7 @@
           border-right: 1px solid #fff;
           margin-right: 35px;
           padding-right: 20px;
+
           .btn {
             border: none;
             box-shadow: none;
@@ -234,6 +237,7 @@
             color: $white;
             border-radius: 50%;
             background: transparent;
+
             &:hover {
               //background: $brand;
             }
@@ -253,7 +257,31 @@
     max-width: 150px;
   }
   .header .navbar .mainMenu ul .nav-item {
-    margin-right: 20px;
+    margin-right: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .header .navbar .mainMenu ul .nav-item .nav-link {
+    display: inline-block;
+  }
+  .header .navbar .mainMenu {
+    margin-left: 0;
+    background: #fff;
+    padding-bottom: 10px;
+  }
+  .header .navbar .mainMenu ul {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .header .navbar .mainMenu .rightSearchBoxWrap .rightSearchBox .btn {
+    color: $brand;
+  }
+  .header .navbar .mainMenu .rightSearchBoxWrap .rightSearchBox {
+    border-color: #FF5F30;
+  }
+  .header .navbar .mainMenu .signUpBtnWrap .signUpBtn {
+    border: 1px solid #FF5F30;
   }
 }
 

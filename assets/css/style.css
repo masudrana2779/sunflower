@@ -172,6 +172,13 @@ button:focus {
     font-size: 30px;
     line-height: 38px; } }
 
+@media (max-width: 767px) {
+  .secTitle br {
+    display: none; }
+  .secTitle {
+    font-size: 28px;
+    line-height: 40px; } }
+
 .gotop {
   position: fixed;
   bottom: 20px;
@@ -193,7 +200,8 @@ button:focus {
   -ms-flex-pack: center;
   justify-content: center;
   color: #fff;
-  font-size: 30px; }
+  font-size: 30px;
+  border-radius: 50%; }
 
 .bgGray {
   background: #F3F4F6; }
@@ -358,7 +366,25 @@ button:focus {
   .header.fixdHeader .navbar .logo a img {
     max-width: 150px; }
   .header .navbar .mainMenu ul .nav-item {
-    margin-right: 20px; } }
+    margin-right: 0;
+    width: 100%;
+    padding: 10px 0; }
+  .header .navbar .mainMenu ul .nav-item .nav-link {
+    display: inline-block; }
+  .header .navbar .mainMenu {
+    margin-left: 0;
+    background: #fff;
+    padding-bottom: 10px; }
+  .header .navbar .mainMenu ul {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px; }
+  .header .navbar .mainMenu .rightSearchBoxWrap .rightSearchBox .btn {
+    color: #FF5F30; }
+  .header .navbar .mainMenu .rightSearchBoxWrap .rightSearchBox {
+    border-color: #FF5F30; }
+  .header .navbar .mainMenu .signUpBtnWrap .signUpBtn {
+    border: 1px solid #FF5F30; } }
 
 @media (max-width: 767px) {
   .header {
@@ -458,15 +484,26 @@ button:focus {
     .bannerSliderItem .bannerImgContent .bannerImgInner .bannerImg img {
       border-radius: 20px; }
 
+@media (max-width: 1024px) {
+  .bannerSliderItem .bannerInner .bannerContent .bannerTitle {
+    font-size: 44px;
+    line-height: 56px; }
+  .bannerSliderItem .bannerImgContent {
+    padding-left: 0; }
+  .overlayImg img {
+    max-width: 500px;
+    width: 100%; } }
+
 @media (max-width: 768px) {
-  .bannerSliderItem .bannerInner .bannerContent .Automated {
-    font-size: 90px;
-    top: -100px; }
+  .bannerSliderWrap .overlayImg {
+    display: none; }
   .bannerSliderItem .bannerInner .bannerContent .bannerTitle {
     font-size: 50px;
     line-height: 60px; }
   .bannerSliderItem .bannerInner {
-    padding: 200px 0 100px; } }
+    padding: 200px 0 100px; }
+  .bannerSliderItem {
+    height: auto; } }
 
 @media (max-width: 767px) {
   .bannerSliderItem .bannerInner .bannerContent .Automated {
@@ -553,7 +590,13 @@ button:focus {
 
 @media (max-width: 1024px) {
   .aboutUsWrap {
-    padding: 60px 0 80px; } }
+    padding: 60px 0 80px; }
+  .aboutContentWrap {
+    padding-top: 0; }
+  .aboutContentWrap .aboutContentInner .aboutContent .secTitle {
+    margin-bottom: 20px; }
+  .aboutContentWrap .aboutContentInner .aboutContent .aboutPare {
+    margin-bottom: 20px; } }
 
 @media (max-width: 768px) {
   .aboutUsImgContent .aboutImgInner .borderShape {
@@ -564,7 +607,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .aboutUsImgContent .aboutImgInner {
-    padding-right: 20px; }
+    padding: 0;
+    margin-bottom: 30px; }
   .aboutUsImgContent .aboutImgInner .aboutShape {
     bottom: -30px;
     right: 0; }
@@ -710,7 +754,13 @@ button:focus {
 
 @media (max-width: 1024px) {
   .ourServiceWrap {
-    padding: 50px 0 40px; } }
+    padding: 50px 0 40px; }
+  .serviceSingleItem {
+    padding: 40px; } }
+
+@media (max-width: 767px) {
+  .serviceSingleItem .serviceInner .serviceInfo .serviceTitle {
+    font-size: 22px; } }
 
 .latestWorkWrap {
   position: relative;
@@ -879,7 +929,9 @@ button:focus {
 @media (max-width: 1024px) {
   .latestWorkWrap {
     padding: 50px 0 0px;
-    overflow: hidden; } }
+    overflow: hidden; }
+  .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .infoInner {
+    padding: 30px 25px; } }
 
 .experienceWrap {
   background: #222934;
@@ -994,6 +1046,19 @@ button:focus {
   .testimonialSliderItem .testimonialSliderInner .testDetails p {
     color: #70798B; }
 
+@media (max-width: 767px) {
+  .testimonialSliderItem {
+    padding: 30px 25px;
+    margin: 70px 20px 80px; }
+  .testimonialSliderItem .testimonialSliderInner .testimonialSliderImgContent .testImg img {
+    width: 50px;
+    height: 50px; }
+  .testimonialSliderItem .testimonialSliderInner .testimonialSliderImgContent .comma img {
+    max-width: 30px;
+    width: 100%; }
+  .testimonialWrap {
+    padding-bottom: 0; } }
+
 .clientLogoWrap {
   padding-bottom: 350px; }
 
@@ -1060,7 +1125,7 @@ button:focus {
           font-family: "Nunito", sans-serif;
           font-size: 16px; }
   .ratingWrap .totalRatingCount {
-    padding-left: 100px; }
+    padding-left: 155px; }
     .ratingWrap .totalRatingCount .totalRatingInner {
       max-width: 555px;
       width: 100%; }
@@ -1071,6 +1136,29 @@ button:focus {
         color: #000B33; }
         .ratingWrap .totalRatingCount .totalRatingInner h3 span {
           color: #FF5F30; }
+
+@media (max-width: 1024px) {
+  .ratingWrap .totalRatingCount {
+    padding-left: 70px; }
+  .ratingWrap .userRating .userRatingInner .userRatingItem .ratingInfo h2 {
+    font-size: 40px; }
+  .ratingWrap .totalRatingCount .totalRatingInner h3 {
+    font-size: 36px; } }
+
+@media (max-width: 767px) {
+  .ratingWrap .userRating {
+    margin-bottom: 50px; }
+  .ratingWrap .totalRatingCount {
+    padding: 0; }
+  .ratingWrap .totalRatingCount .totalRatingInner h3 {
+    line-height: 44px; }
+  .ratingWrap {
+    padding-bottom: 50px; }
+  .clientLogoContent {
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto; }
+  .clientLogoContent .clientLogoItem {
+    margin-bottom: 30px; } }
 
 .contact_form_wrap {
   position: relative;
@@ -1299,9 +1387,23 @@ button:focus {
 .contentBottomTitle p {
   margin-bottom: 30px; }
 
+@media (max-width: 1024px) {
+  .contactInfoSingleItem .singleItemInner .contactIcon {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px; } }
+
 @media (max-width: 767px) {
   .contact_form_wrap {
-    padding: 40px 0 20px; } }
+    padding: 40px 0 20px; }
+  .contactInfoSingleItem {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-bottom: 40px; }
+  .contactTopWrap .contactTop {
+    padding: 50px 10px 10px; } }
 
 .footer {
   background: #F3F4F6; }
@@ -1378,5 +1480,9 @@ button:focus {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; } }
+
+@media (max-width: 767px) {
+  .footerBottom .copyRight p {
+    text-align: center; } }
 
 /*==========================================================*/

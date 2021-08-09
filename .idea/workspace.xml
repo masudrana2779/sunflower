@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="442b47f6-0c4c-4fb6-be4a-958d685b4e33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/sass/theme/_clientLogo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/theme/_rating.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/_globalStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/_globalStyle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_aboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_aboutUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_latestWork.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_latestWork.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_rating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_rating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_sercice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_sercice.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/theme/_testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_testimonial.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendors/slick/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/slick/slick.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <workItem from="1627982605449" duration="1138000" />
       <workItem from="1627991458335" duration="968000" />
       <workItem from="1628410898330" duration="10565000" />
-      <workItem from="1628483685008" duration="7102000" />
+      <workItem from="1628483685008" duration="17830000" />
     </task>
     <servers />
   </component>

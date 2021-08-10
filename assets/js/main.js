@@ -82,7 +82,7 @@
         function testimonialSlider() {
             $(".testimonialSlider").owlCarousel({
                 center: true,
-                items:1,
+                items:3,
                 loop:true,
                 margin:30,
                 lazyLoad: true,
@@ -96,6 +96,9 @@
                     },
                     992:{
                         items:2
+                    },
+                    1920:{
+                        items:3
                     }
                 }
             });

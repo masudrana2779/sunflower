@@ -393,6 +393,9 @@ button:focus {
   .header.fixdHeader .navbar .logo a img {
     max-width: 100px; } }
 
+.bannerWrap {
+  margin-bottom: 50px; }
+
 .bannerSliderWrap {
   position: relative;
   z-index: 1; }
@@ -485,7 +488,9 @@ button:focus {
   .bannerSliderItem .bannerImgContent {
     padding-left: 130px; }
     .bannerSliderItem .bannerImgContent .bannerImgInner .bannerImg img {
-      border-radius: 20px; }
+      border-radius: 20px;
+      -webkit-box-shadow: 20px 30px 50px rgba(8, 20, 32, 0.1);
+      box-shadow: 20px 30px 50px rgba(8, 20, 32, 0.1); }
 
 @media (max-width: 1024px) {
   .bannerSliderItem .bannerInner .bannerContent .bannerTitle {

@@ -623,7 +623,8 @@ button:focus {
   .aboutContentWrap {
     padding-left: 0; }
   .aboutUsWrap {
-    padding-bottom: 50px; } }
+    padding-bottom: 50px;
+    padding-top: 0; } }
 
 .callUsWrap {
   background: url("./../../assets/img/call-us/call-us-bg.jpg") no-repeat scroll top left/cover;

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="442b47f6-0c4c-4fb6-be4a-958d685b4e33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendors/slick/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/slick/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_aboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_aboutUs.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <workItem from="1628410898330" duration="10565000" />
       <workItem from="1628483685008" duration="17866000" />
       <workItem from="1628572800239" duration="3548000" />
-      <workItem from="1628592196583" duration="433000" />
+      <workItem from="1628592196583" duration="2257000" />
     </task>
     <servers />
   </component>

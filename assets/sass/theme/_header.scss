@@ -259,7 +259,7 @@
   .header .navbar .mainMenu ul .nav-item {
     margin-right: 0;
     width: 100%;
-    padding: 10px 0;
+    //padding: 10px 0;
   }
   .header .navbar .mainMenu ul .nav-item .nav-link {
     display: inline-block;
@@ -288,5 +288,11 @@
 @media (max-width: 767px) {
   .header {
     padding: 20px 0;
+  }
+  .header.fixdHeader {
+    padding: 10px 0;
+  }
+  .header.fixdHeader .navbar .logo a img {
+    max-width: 100px;
   }
 }

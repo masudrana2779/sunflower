@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="442b47f6-0c4c-4fb6-be4a-958d685b4e33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_aboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_aboutUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner/banner_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banner/banner_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/latest-work/project_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/latest-work/project_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/latest-work/project_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/latest-work/project_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/latest-work/project_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/latest-work/project_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/theme/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,8 @@
       <workItem from="1628410898330" duration="10565000" />
       <workItem from="1628483685008" duration="17866000" />
       <workItem from="1628572800239" duration="3548000" />
-      <workItem from="1628592196583" duration="2257000" />
+      <workItem from="1628592196583" duration="2869000" />
+      <workItem from="1628655792917" duration="5098000" />
     </task>
     <servers />
   </component>
